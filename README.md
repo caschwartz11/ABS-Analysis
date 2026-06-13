@@ -10,7 +10,7 @@ Are ABS challenges driven primarily by pitch accuracy or are they influenced by 
   Baseball Savant's data classifies the pitches as balls and strikes, and by pitch type. Thus, analysis based on those traits is trivial. However, Savant also classifies pitches as "reasonable," meaning a player could reasonably challenge the pitch. Savant defines a reasonable challenge as a pitch that was called incorrectly, was within 3 inches of the strike zone and would gain at least .3 runs, or the pitch has an expected challenge rate of at least 20%. Unfortunately, the publicly assessiable data does not include labelled reasonable pitches, thus a function was implemented to find the data. 
 ## Results
 ### Challenge Locations
-![Challenge Locations](<img width="1243" height="821" alt="pos_challenged_unchallenged" src="https://github.com/user-attachments/assets/fa92b066-f4da-46fd-9bff-c3ac826708fc" />)
+![Challenge Locations](figures/pos_challenged_unchallenged.png)
 
 This figure compares challenged and unchallenged pitches. 
 
