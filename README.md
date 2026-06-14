@@ -22,12 +22,12 @@ This figure compares challenged pitches by outcome and location. Most challenged
 This figure shows the distance from the edge of the strike zone by day, the daily average. and the overall average. The average daily distance from the strike zone edge is consistent through the season so far. Thus, the distance from the strike zone is not improving as players get more experience. 
 
 ### Challenge Frequency by Count
-![Frequency Count](figures/challenges_by_count.png)
-This figure shows the frequency of challenges by count (ball-strike). The frequency of 0-0 count makes sense as it is in every at-bat. More interestingly, players are more likely to challenge with 2 strikes than with the same ball count and a lower strike count. 
+![Probability by Count](figures/prob_count.png)
+This figure shows the frequency of challenges by count (ball-strike). Players are most likely to challenge on a 3-2 count by 10%. Players are unlikely to challenge a 0-0 or 3-0 count. 
 
 ### Challenge Frequency by Runners On
-![Frequency Runners](figures/challenges_by_runners.png)
-This figure shows the frequency of challenges by runners on base. 
+![Frequency Runners](figures/prob_runners_on.png)
+This figure shows the frequency of challenges by runners on base. Players are most likely to challenge a pitch when there are 3 runners on base. The probability increases as the number of runners on base increases.
 
 ## Key Findings
 
