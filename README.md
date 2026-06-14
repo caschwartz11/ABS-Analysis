@@ -11,23 +11,23 @@ Are ABS challenges driven primarily by pitch accuracy or are they influenced by 
   For probabilities of challenges, I added the challengeable pitches to normalize find the probability that a pitch would be challenged based on the context. 
 ## Results
 ### Challenged and Unchallenged Pitches by Location
-![Challenge Locations](figures/pos_challenged_unchallenged.png)
+![Challenge Locations](figures/README-figures/pos_challenged_unchallenged.png)
 This figure compares challenged and unchallenged pitches by location. The unchallenged but reasonable pitches are concentrated in the corners. The challenged pitches are more common on the bottom half of the plate, but there are a lot of reasonable unchallenged pitches on the top of the plate. 
 
 ### Confirmed and Overturned Pitches by Location
-![Overturned/Confirmed Locations](figures/pos_over_conf.png)
+![Overturned/Confirmed Locations](figures/README-figures/pos_over_conf.png)
 This figure compares challenged pitches by outcome and location. Most challenged pitches occur on the bottom half of the plate. Challenge outcomes appear to be distributed similarly across pitch locations, suggesting that location alone may not fully explain whether a challenge is confirmed or overturned.
 
 ### Distance from Zone by Day
-![Distance from Zone](figures/dist_from_zone.png)
+![Distance from Zone](figures/README-figures/dist_from_zone.png)
 This figure shows the distance from the edge of the strike zone by day, the daily average. and the overall average. I hypothesized that teams would become more accurate as they get more experience. The average daily distance from the strike zone edge is consistent through the season so far. Thus, the distance from the strike zone is not improving as the season progresses. This supports the conclusion that teams are challenging based on context over distance. 
 
 ### Challenge Frequency by Count
-![Probability by Count](figures/prob_count.png)
+![Probability by Count](figures/README-figures/prob_count.png)
 This figure shows the frequency of challenges by count (ball-strike). Players are most likely to challenge on a 3-2 count by 10%. Players are unlikely to challenge a 0-0 or 3-0 count. This further supports the conclusion that the context of the pitch determines if a player challenges it. 
 
 ### Challenge Frequency by Runners On
-![Frequency Runners](figures/prob_runners_on.png)
+![Frequency Runners](figures/README-figures/prob_runners_on.png)
 This figure shows the frequency of challenges by runners on base. Players are most likely to challenge a pitch when there are 3 runners on base. The probability increases as the number of runners on base increases. This supports the conclusion that the context is the determining factor of a challenge. 
 
 ## Future Work
