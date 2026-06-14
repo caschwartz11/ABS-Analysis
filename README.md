@@ -11,19 +11,19 @@ Are ABS challenges driven primarily by pitch accuracy or are they influenced by 
 ## Results
 ### Challenged and Unchallenged Pitches by Location
 ![Challenge Locations](figures/pos_challenged_unchallenged.png)
-This figure compares challenged and unchallenged pitches by location. 
+This figure compares challenged and unchallenged pitches by location. The unchallenged but reasonable pitches are concentrated in the corners. The challenged pitches are more common on the bottom half of the plate, but there are a lot of reasonable unchallenged pitches on the top of the plate. 
 
 ### Confirmed and Overturned Pitches by Location
 ![Overturned/Confirmed Locations](figures/pos_over_conf.png)
-This figure compares challenged pitches by outcome and location. 
+This figure compares challenged pitches by outcome and location. Most challenged pitches occur on the bottom half of the plate. Challenge outcomes appear to be distributed similarly across pitch locations, suggesting that location alone may not fully explain whether a challenge is confirmed or overturned.
 
 ### Distance from Zone by Day
 ![Distance from Zone](figures/dist_from_zone.png)
-This figure shows the distance from the edge of the strike zone by day, the daily average. and the overall average.
+This figure shows the distance from the edge of the strike zone by day, the daily average. and the overall average. The average daily distance from the strike zone edge is consistent through the season so far. Thus, the distance from the strike zone is not improving as players get more experience. 
 
 ### Challenge Frequency by Count
 ![Frequency Count](figures/challenges_by_count.png)
-This figure shows the frequency of challenges by count (ball-strike). 
+This figure shows the frequency of challenges by count (ball-strike). The frequency of 0-0 count makes sense as it is in every at-bat. More interestingly, players are more likely to challenge with 2 strikes than with the same ball count and a lower strike count. 
 
 ### Challenge Frequency by Runners On
 ![Frequency Runners](figures/challenges_by_runners.png)
