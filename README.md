@@ -9,7 +9,7 @@ Are ABS challenges driven primarily by pitch accuracy or are they influenced by 
 ## Methodology
   Baseball Savant's data classifies the pitches as balls and strikes, and by pitch type. Thus, analysis based on those traits is trivial. However, Savant also classifies pitches as "reasonable," meaning a player could reasonably challenge the pitch. Savant defines a reasonable challenge as a pitch that was called incorrectly, was within 3 inches of the strike zone and would gain at least .3 runs, or the pitch has an expected challenge rate of at least 20%. Unfortunately, the publicly assessiable data does not include labelled reasonable pitches, thus a function was implemented to find the data. 
   For probabilities of challenges, I added the challengeable pitches to normalize find the probability that a pitch would be challenged based on the context. 
-## Results
+## Key Figures
 ### Challenged and Unchallenged Pitches by Location
 ![Challenge Locations](figures/README-figures/pos_challenged_unchallenged.png)
 This figure compares challenged and unchallenged pitches by location. The unchallenged but reasonable pitches are concentrated in the corners. The challenged pitches are more common on the bottom half of the plate, but there are a lot of reasonable unchallenged pitches on the top of the plate. 
@@ -29,6 +29,11 @@ This figure shows the frequency of challenges by count (ball-strike). Players ar
 ### Challenge Frequency by Runners On
 ![Frequency Runners](figures/README-figures/prob_runners_on.png)
 This figure shows the frequency of challenges by runners on base. Players are most likely to challenge a pitch when there are 3 runners on base. The probability increases as the number of runners on base increases. This supports the conclusion that the context is the determining factor of a challenge. 
+
+## Key Findings
+1. Challenges are not getting more accurate as the season progresses, at least so far.
+2. Challenges are more likely to occur in later innings and with full counts.
+3. Challenge accuracy does not seem to be determined by location (high, low, wide).
 
 ## Future Work
   The analysis of this data is from only the first two months of the 2026 MLB season. Repeating the analysis with a full regular season would allow trends observed here to be evaluated over a larger sample. Additionally, repeating with only postseason data will show if teams change strategies as games become more important. Since the postseason includes series results, it would also include more data on teams in elimination games. Further analysis could show which factor each organization considers the most important and which strategy is most effective. 
